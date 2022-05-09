@@ -21,7 +21,6 @@
     "noEmitOnError": true,
     "outDir": "./dist",
     "removeComments": false,
-    "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
