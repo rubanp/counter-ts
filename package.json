@@ -1,8 +1,10 @@
 {
   "name": "counter-ts",
   "version": "1.0.0",
-  "description": "A simple counter animation with an easing function",
-  "main": "dist.js",
+  "description": "A simple number counter animation with an easing function",
+  "browser": "./dist/counter.js",
+  "types": "./dist/counter.d.ts",
+  "author": "@rubanp",
   "keywords": [
     "count",
     "counter",
@@ -16,9 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/rubanp/counter-ts"
   },
-  "author": "@rubanp",
   "license": "MIT",
-  "homepage": "https://github.com/jaxgeller/counter-ts#readme",
+  "homepage": "https://github.com/rubanp/counter-ts#readme",
   "devDependencies": {
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
