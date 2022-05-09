@@ -1,28 +1,26 @@
 {
-  "name": "counter.js",
-  "version": "1.0.8",
-  "description": "Counter.js is a slim (less than 1kb gzipped), performant, es6 module, that counts numbers. It uses RAF and easing functions to provide a buttery-smooth, 60-fps counter.",
+  "name": "counter-ts",
+  "version": "1.0.0",
+  "description": "A simple counter animation with an easing function",
   "main": "dist.js",
-  "keywords": ["count", "counter", "count up", "count down"],
+  "keywords": [
+    "count",
+    "counter",
+    "count up",
+    "count down"
+  ],
   "scripts": {
-    "build": "watchify --standalone Counter -t babelify -t uglifyify counter.js -o dist.min.js",
-    "release": "browserify -t babelify --standalone Counter counter.js -o dist.js"
+    "dev": "tsc --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaxgeller/counter.js.git"
+    "url": "git+https://github.com/rubanp/counter-ts"
   },
-  "author": "@jaxgeller",
+  "author": "@rubanp",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jaxgeller/counter.js/issues"
-  },
-  "homepage": "https://github.com/jaxgeller/counter.js#readme",
+  "homepage": "https://github.com/jaxgeller/counter-ts#readme",
   "devDependencies": {
-    "babel": "^5.8.23",
-    "babelify": "^6.3.0",
-    "browserify": "^11.1.0",
-    "uglifyify": "^3.0.1",
-    "watchify": "^3.4.0"
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
   }
 }
